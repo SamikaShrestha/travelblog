@@ -1,0 +1,37 @@
+"use strict";(function(){try{var record=function(name,detail){aps.get(accountId).queue.push(new CustomEvent(name,{detail}))};const accountId="38918095-8e45-4332-88bf-226b3514cb64";window._aps=window._aps||new Map;const aps=window._aps;aps.has(accountId)||aps.set(accountId,{queue:[],store:new Map}),record("_config/requestViewerCountry/define",{"code":"NP"});record("analytics/sampling/set",{"rates":{"error":0.001,"status":0.0001}});record("a3pes/video/activate",{"restrictions":{"block":{"accounts":["5220","e32f1423-28bc-43ed-8ab0-5ae6b4449cf8"]}}});record("a3pes/video/activate",{"bypassCountryCheck":true,"restrictions":{"allow":{"accountTypes":["ssw"]},"block":{"accounts":["e32f1423-28bc-43ed-8ab0-5ae6b4449cf8"]}}});record("a3pes/video/activate",{"bypassCountryCheck":true,"restrictions":{"allow":{"accountTypes":["mw"],"rate":0.5},"block":{"accounts":["5220"]}}});record("google/secureSignals/set",{});record("idVendors/enabled/set",{"bidParameterKeys":["liveintent","merkle","intimateMerger","pair","amx","33across","fTrack","captify","publink","anonymised","quantcast","idPlus","unifiedid","ddb_key_638","fabrick","uid","criteo","yahoo","liveRamp","id5","pubcommon","audigent","lightPublisherAudiences","lotame"]});record("idVendors/integration/execute",{"accountId":"38918095-8e45-4332-88bf-226b3514cb64","sourceId":"600","countryCode":"NP","vendorId":"id5","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__id5__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NP"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__id5__ = false;}})();
+})()
+},"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"38918095-8e45-4332-88bf-226b3514cb64","sourceId":"600","countryCode":"NP","vendorId":"liveRamp","allowedRegions":undefined,"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveRamp__ = false;}})();
+})():(!undefined||undefined&&!undefined.includes("NP"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveRamp__ = false;}})();
+})()
+},"defaultPropertyId":"44"});record("idVendors/integration/execute",{"accountId":"38918095-8e45-4332-88bf-226b3514cb64","sourceId":"600","countryCode":"NP","vendorId":"pubcommon","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__pubcommon__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NP"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__pubcommon__ = false;}})();
+})()
+},"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"38918095-8e45-4332-88bf-226b3514cb64","sourceId":"600","countryCode":"NP","vendorId":"confiant","allowedRegions":undefined,"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["askamanager.org","earth.com","cougarboard.com","immigrationnewscanada.ca","edhrec.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+window.creativeVendorLibraryLoaded = true;
+})():(!undefined||undefined&&!undefined.includes("NP"))&&(function anonymous(
+) {
+window.creativeVendorLibraryLoaded = true;
+})()
+},"propertyId":"14bTu7kxn5_ot6hKE67zlbN8NbQ"}],"defaultScript":undefined,"defaultPropertyId":undefined});record("_config/config/didLoad",undefined)}catch(e){console.error(e)}})();

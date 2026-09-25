@@ -1,0 +1,579 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F8F5F0;
+}
+
+/* ================Navbar================== */
+
+.header {
+    width: 100%;
+    background-color: #023047;
+}
+
+.nav-bar {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.navlist{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    height:60px;
+}
+
+.navlist li a:hover{
+    color: #ff5a5f;
+}    
+
+/* ===================herosection==================== */
+
+.heros-video{
+  height: 680px;
+}
+
+.hero-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 680px;
+  background: rgba(0, 0, 0, 0.3); 
+  z-index: 2;
+}
+
+.home-slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 270px;
+    left: 450px;
+    z-index: 3;
+}
+
+.home-heading{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.home-description{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.home-btn{
+    padding: 10px 25px;
+    margin-top: 10px;
+    background-color: #f85d63;
+    color: white;
+    border: none;
+}
+
+/* =============Featured=============== */
+
+.options-container{
+    padding: 0 30px;
+}
+
+.options-heading{
+    font-size: 2rem;
+    padding: 40px 0 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.featured-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fimage{
+    height:250px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 
+                0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.f-tags{
+    text-align: center;
+    padding: 15px 0 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* ==============Popular posts================= */
+
+.popular-section {
+    width: 100%;
+    margin: 30px auto;
+    padding: 30px 20px 50px 20px;
+    background-color: #b4d8e9;
+}
+
+.pop-heading {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: grey;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+.popular-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-left:60px;
+}
+
+.post-card {
+    width: 400px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.post-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.12), 
+                0 8px 10px -6px rgba(0, 0, 0, 0.08);
+}
+
+.card-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-top-left-radius:12px ;
+    border-top-right-radius:12px ;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content h3 {
+    font-size: 1.25rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #023047;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.read-more:hover {
+    color: #d9383d;
+}
+
+/* ===============About Us================== */
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-img{
+    width: 40%;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.a-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.detail{
+    width: 50%;
+    padding-top: 40px ;
+}
+
+.detail h1{
+    padding: 10px 0;
+}
+
+.detail p{
+    font-size: 20px;
+}
+
+/* =================Destination=============== */
+
+#destinations{
+    padding: 30px 0 0 0;   
+}
+
+.destination{
+    background-color: #b4d8e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destinations-pic{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 50px 70px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.destiny-img{
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.destination-heading{
+    text-align: center;
+    font-size: 2rem;
+    padding: 40px 0 30px 0;
+}
+
+.des-card{
+    width: 350px;
+}
+
+.destiny-img:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.12), 
+                0 8px 10px -6px rgba(0, 0, 0, 0.08);
+}
+
+.des-card p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+
+/* ===================Blog Banner================== */
+
+.banner-container{
+  height: 600px;
+}
+
+.blog-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-overlay {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.3); 
+  z-index: 2;
+}
+
+.blog-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    z-index: 3;
+}
+
+.blog-heading{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.blog-description{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.post-container{
+    padding: 25px 40px;
+}
+
+.post-heading{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.post-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+    padding: 30px 50px 0 50px;
+}
+
+.post-box{
+    height: auto;
+    width: 380px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.post-image{
+    height: 200px;
+    padding: 5px;
+}
+
+.image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.post-data{
+    margin: 15px 0 10px 0;
+    line-height: 1.5;
+}
+
+.post-title{
+    font-size: 1rem;
+}
+
+.post-description{
+    color: grey;
+    height: 50px;
+    overflow: hidden;
+}
+
+.post-blog{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #023047;
+    margin-top: 5px;
+}
+.blog-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================Footer================== */
+#footer {
+  background-color:#023047;
+  color: white;
+  padding: 50px 0 0 0;
+}
+
+.footer-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-col {
+  width: 220px;
+}
+
+.footer-main-head {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer-about p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.footer-col h4 {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #2a2a2a;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid #2a2a2a;
+  font-size: 0.9rem;
+}
+/* ===============Blog Detail==================== */
+
+.product-detail {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto 80px;
+}
+
+.product-card {
+    width: 100%;
+    background-color: #f7f0e3;
+    padding: 40px 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.product-card h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #3e2723;
+}
+
+.product-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-img img {
+    width: 80%;
+    max-width: 900px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.description {
+    border-top: 1px solid #b08d57;
+    border-bottom: 1px solid #b08d57;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.description-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #5d4037;
+}
+
+.product-card > p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #3e2723;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.detail-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #6d2932;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.detail-btn:hover {
+    background-color: #3e2723;
+}
