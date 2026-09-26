@@ -26,7 +26,13 @@ $result=mysqli_query($conn,$sql);
         </div>
     </section>
     <section class="post-container">
-        <h2 class="post-heading">Blog Posts</h2><br>
+            <h2 class="post-heading">Blog Posts</h2>
+        <?php if (isset($_SESSION['auth'])){ ?>
+        <div class="post-nav">
+            <a class="add-btn" href="add-blogs.php">Add Blogs</a>
+        </div>
+        <?php } ?>
+        <br>
         <hr>
         <div class="post-list">
                 <?php foreach($result as $post) { ?>

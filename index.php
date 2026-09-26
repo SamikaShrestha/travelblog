@@ -47,7 +47,9 @@ require_once "connection.php";
                     <h2 class="options-heading">Featured</h2>
                     <div class="featured-images">
                         <div class="first-img">
-                            <img src="./img/travel blogs.jpg" alt="" class="fimage">
+                            <a href="blogs.php">
+                                <img src="./img/travel blogs.jpg" alt="" class="fimage">
+                            </a>
                             <p class="f-tags">Travel Blogs</p>
                         </div>
                         <div class="second-img">
@@ -67,34 +69,34 @@ require_once "connection.php";
                 <div class="popular-grid">
                     <div class="post-card">
                         <div class="card-image">
-                            <img src="./img/travel blogs.jpg" alt="Bali Beach">
+                            <img src="./img/japan.jpg" alt="Bali Beach">
                         </div>
                         <div class="card-content">
                             <h3>Exploring the Hidden Beaches of Bali</h3>
                             <p>Discover secluded shores, crystal waters, and secret spots away from the crowd.</p>
-                            <a href="" class="read-more">Read Story</a>
+                            <a href="" class="read-more">Read More</a>
                         </div>
                     </div>
 
                     <div class="post-card">
                         <div class="card-image">
-                            <img src="./img/destinations.jpg" alt="Swiss Alps">
+                            <img src="./img/switzerland.avif" alt="Swiss Alps">
                         </div>
                         <div class="card-content">
                             <h3>A First-Timer's Guide to the Swiss Alps</h3>
                             <p>Everything you need to know about hiking, trains, and cozy mountain villages.</p>
-                            <a href="" class="read-more">Read Story</a>
+                            <a href="" class="read-more">Read More</a>
                         </div>
                     </div>
 
                     <div class="post-card">
                         <div class="card-image">
-                            <img src="./img/travel guides.jpg" alt="Tokyo Street">
+                            <img src="./img//italy.webp" alt="Tokyo Street">
                         </div>
                         <div class="card-content">
                             <h3>Tokyo Nightlife: Secret Food Alleyways</h3>
                             <p>Taste authentic local cuisine across the narrow streets of Shinjuku and Shibuya.</p>
-                            <a href="" class="read-more">Read Story</a>
+                            <a href="" class="read-more">Read More</a>
                         </div>
                     </div>
 
@@ -105,7 +107,7 @@ require_once "connection.php";
                         <div class="card-content">
                             <h3>Sunset Spots in Santorini You Can't Miss</h3>
                             <p>Unforgettable views, cliffside cafes, and white-washed villages in Greece.</p>
-                            <a href="" class="read-more">Read Story</a>
+                            <a href="" class="read-more">Read More</a>
                         </div>
                     </div>
 
@@ -116,7 +118,7 @@ require_once "connection.php";
                         <div class="card-content">
                             <h3>10 Budget Travel Tips for Backpacker Couples</h3>
                             <p>Save big on lodging, transit, and activities without sacrificing fun.</p>
-                            <a href="" class="read-more">Read Story </a>
+                            <a href="" class="read-more">Read More </a>
                         </div>
                     </div>
 
@@ -127,7 +129,7 @@ require_once "connection.php";
                         <div class="card-content">
                             <h3>The Ultimate Italian Food Crawl</h3>
                             <p>From Naples pizza to Roman pasta, eat your way through classic culinary hubs.</p>
-                            <a href="" class="read-more">Read Story </a>
+                            <a href="" class="read-more">Read More </a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +153,7 @@ require_once "connection.php";
                     <h2 class="destination-heading">Destinations</h2>
                     <div class="destinations-pic">
                         <div class="des-card">
-                            <img src="img/destinations.jpg" alt="" class="destiny-img">
+                            <img src="img/travel guides.jpg" alt="" class="destiny-img">
                             <p>Maldives</p>
                         </div>
                         <div class="des-card">
@@ -163,15 +165,15 @@ require_once "connection.php";
                             <p>Greece</p>
                         </div>
                         <div class="des-card">
-                            <img src="img/blogpage.jpg" alt="" class="destiny-img">
+                            <img src="img/switzerland.avif" alt="" class="destiny-img">
                             <p>Indonesia</p>
                         </div>
                         <div class="des-card">
-                            <img src="img/blogpage.jpg" alt="" class="destiny-img">
+                            <img src="img/italy.webp" alt="" class="destiny-img">
                             <p>Egypt</p>
                         </div>
                         <div class="des-card">
-                            <img src="img/blogpage.jpg" alt="" class="destiny-img">
+                            <img src="img/japan.jpg" alt="" class="destiny-img">
                             <p>Italy</p>
                         </div>
                     </div>

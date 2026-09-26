@@ -23,7 +23,6 @@ session_start();
                 <li><a href="index.php#aboutus">About Us</a></li>
                 <li><a href="index.php#footer">Contact Us</a></li>
                 <?php if (isset($_SESSION['auth'])){ ?>
-                    <li><a href="add-blogs.php">Add Blogs</a></li>
                     <li class="user-profile">
                         <a href="profile.php" class="account-btn">
                             <i class="fa-solid fa-user-circle"></i>

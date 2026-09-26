@@ -40,29 +40,38 @@ $query = "SELECT * FROM category";
 $category = mysqli_query($conn, $query);
 ?>
 
-<h1>Add Blog</h1>
-<hr>
+<div class="blog-entry">
+    <aside class="aside-container">
+        <img class="aside-img" src="img/aside.webp" alt="img">
+    </aside>
 
-<form action="" method="post" enctype="multipart/form-data">
-    Category:
-    <select name="category_id" required>
-        <option value="">----------Select Category-----------</option>
-        <?php foreach($category as $cat) { ?>
-            <option value="<?php echo $cat['cid']; ?>">
-                <?php echo $cat['name']; ?>
-            </option>
-        <?php } ?>
-    </select>
-    <br><br>
-    Title:
-    <input type="text" name="title" required>
-    <br><br>
-    Image:
-    <input type="file" name="image" required>
-    <br><br>
-    Description:
-    <textarea name="description" required></textarea>
-    <br><br>
-    <button>Add Post</button>
-</form>
+    <form class="form" action="" method="post" enctype="multipart/form-data">
+        <h1>Add Blog</h1>
+        <br>
+        Category:<br>
+        <select name="category_id" class="add category-box" required>
+            <option value="">---------------------------------------Select Category-----------------------------------------------------------</option>
+            <?php foreach($category as $cat) { ?>
+                <option value="<?php echo $cat['cid']; ?>">
+                    <?php echo $cat['name']; ?>
+                </option>
+            <?php } ?>
+        </select>
+        <br><br>
+        Title:<br>
+        <input type="text" name="title" class="add title-box" required>
+        <br><br>
+        Image:<br>
+        <input type="file" name="image" class="add image-box" required>
+        <br><br>
+        Description:<br>
+        <textarea name="description" class="add descrip-box" required></textarea>
+        <br><br>
+        <button class="add-post">Add Post</button>
+    </form>
+</div>
+
+<?php
+require_once "footer.php";
+?>
 

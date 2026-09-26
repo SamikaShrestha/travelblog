@@ -27,21 +27,25 @@ if(!empty($_POST)){
 </head>
 <body>
     <blockquote>
-        <h1>Register Form</h1>
-        <hr>
-        <form action="" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
+        <div class="register-entry">
+            <aside class="aside-container">
+                <img class="aside-img" src="img/aside.webp" alt="img">
+            </aside>
+            <form class="reg-form" method="post">
+                <h1>Register Form</h1>
+                <br>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" class="reg name-box" required><br><br>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" class="reg email-box" required><br><br>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" class="reg pass-box" required><br><br>
 
-            <button>Create new account</button>
-            
-            </form>
+                <button class="reg-btn">Create new account</button>
+                </form>
+        </div>
     </blockquote>
 </body>
 </html>

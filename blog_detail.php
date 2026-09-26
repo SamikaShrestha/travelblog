@@ -22,7 +22,7 @@ $post= mysqli_fetch_assoc($result);
                 Category: <?php echo $post['category_name'] ?>
             </p>
         </div>
-        <p><?php echo $post['description'] ?> </p>
+        <p class="main-body"><?php echo $post['description'] ?> </p>
     </div>
 </div>
 

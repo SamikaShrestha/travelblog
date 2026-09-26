@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 html {
@@ -38,11 +39,16 @@ body{
     text-decoration: none;
     color: white;
     height:60px;
+    font-size: 17px;
 }
 
 .navlist li a:hover{
     color: #ff5a5f;
-}    
+} 
+
+.account-btn i {
+    font-size: 23px;
+}
 
 /* ===================herosection==================== */
 
@@ -90,11 +96,14 @@ body{
 }
 
 .home-btn{
-    padding: 10px 25px;
-    margin-top: 10px;
+    width: 200px;
+    font-size: 15px;
     background-color: #f85d63;
     color: white;
-    border: none;
+    padding: 10px 25px;
+    margin-top: 1opx;
+    border-radius: 20px;
+    border:none;
 }
 
 /* =============Featured=============== */
@@ -362,7 +371,34 @@ body{
 
 .post-heading{
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.post-nav{
+    position: absolute;
+    top: 685px;
+    right: 100px;
+}
+
+.add-btn{
+    font-size: 18px;
+    width: 180px;
+    text-align: right;
+    border-radius: 10px;
+    background-color:#023047;
+    color: white;
+    padding: 7px 35px 8px 35px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.add-btn:hover{
+    background-color: #f85d63;
+    color: white;
 }
 
 .post-list{
@@ -421,6 +457,11 @@ body{
     align-items: center;
     color: white;
     text-decoration: none;
+    transition: 0.3 ease;
+}
+
+.post-blog:hover{
+    background-color: #f85d63;;
 }
 
 .btn-container{
@@ -552,7 +593,7 @@ body{
     color: #5d4037;
 }
 
-.product-card > p {
+.main-body {
     font-size: 18px;
     line-height: 1.8;
     color: #3e2723;
@@ -560,20 +601,165 @@ body{
     margin-bottom: 35px;
 }
 
-.btn {
-    text-align: center;
+/* ==================Add blog Page================== */
+
+.blog-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 2rem;
+    width: 1000px;
+    height: 700px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-.detail-btn {
-    display: inline-block;
-    padding: 12px 30px;
-    background-color: #6d2932;
+.aside-container{
+    width: 300px;
+    height: 700px;
+}
+
+.aside-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form{
+    padding: 20px 50px;
+}
+
+.add {
+    width: 600px;
+    margin-top: 8px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.category-box {
+    height: 30px;
+    padding: 0 12px;
+}
+
+.title-box {
+    height: 45px;
+    padding: 10px 12px;
+}
+
+.image-box {
+    height: 45px;
+    padding: 10px;
+}
+
+.descrip-box {
+    height: 200px;
+    padding: 12px;
+}
+
+.add-post{
+    width: 200px;
+    font-size: 18px;
+    background-color: #f85d63;
     color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
+    padding: 10px 35px;
+    border-radius: 12px;
+    border:none;
 }
 
-.detail-btn:hover {
-    background-color: #3e2723;
+/* =====================REgister Form=================== */
+
+.register-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 2rem;
+    width: 1000px;
+    height: 700px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.reg-form{
+    padding: 20px 50px;
+}
+
+.reg {
+    height: 30px;
+    width: 600px;
+    margin-top: 8px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.name-box {
+    padding: 0 12px;
+}
+
+.email-box {
+    padding: 10px 12px;
+}
+
+.pass-box {
+    padding: 10px;
+}
+
+.reg-btn{
+    width: 300px;
+    font-size: 18px;
+    background-color: #f85d63;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 12px;
+    border:none;
+}
+
+/* ====================LOgin page=================== */
+
+.login-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 2rem;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.log-aside-container{
+    width: 300px;
+    height: 500px;
+}
+
+.log-aside-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.log-form{
+    padding: 20px 50px;
+}
+
+.log {
+    height: 30px;
+    width: 400px;
+    margin-top: 8px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.gmail-box {
+    padding: 0 12px;
+}
+
+.set-pass {
+    padding: 10px;
+}
+
+.log-btn{
+    width: 200px;
+    font-size: 18px;
+    background-color: #f85d63;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 12px;
+    border:none;
 }
