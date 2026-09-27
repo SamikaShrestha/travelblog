@@ -141,7 +141,7 @@ require_once "connection.php";
                     </div>
                     <div class="detail">
                     <h1>About Us!</h1>
-                    <p>Welcome to Wanderlust! 🌍✈️<br><br>
+                    <p>Welcome to Wanderlust!<br><br>
                         We are a travel blog dedicated to inspiring people to explore new destinations,<br> discover different cultures, and create unforgettable memories.<br><br>
                         From travel guides and tips to beautiful destinations and local experiences, we help<br> make your next adventure easier and more exciting.<br><br>
                         Explore. Experience. Remember.</p>
